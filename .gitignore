@@ -1,17 +1,15 @@
-# Ignore Play! working directory #
-bin/
-/db
-.eclipse
-/lib/
-/logs/
-/modules
-/project/project
-/project/target
-/target
-tmp/
-test-result
-server.pid
+# Ignore intelliJ IDEA conf files
 *.iml
-*.eml
-/dist/
-.cache
+.idea/
+
+#Don't commit cover pictures
+public/shared/covers/*
+
+#libs and modules
+lib/*
+modules/*
+
+#Ignore play temp files
+tmp
+out
+test-result
